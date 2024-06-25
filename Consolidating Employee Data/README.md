@@ -1,36 +1,11 @@
-This project serves as a demonstration of my coding skills and practical application in completing the Data Science Certificate projects provided by DataCamp. 
----
-jupyter:
-  colab:
-    name: Welcome to DataCamp Workspaces.ipynb
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.11.5
-  nbformat: 4
-  nbformat_minor: 5
----
+# Consolidating Employee Data
 
-<div class="cell markdown">
-
-You just got hired as the first and only data practitioner at a small
-business experiencing exponential growth. The company needs more
-structured processes, guidelines, and standards. Your first mission is
-to structure the human resources data. The data is currently scattered
+The mission is to structure the human resources data at a small
+business experiencing exponential growth. The data is currently scattered
 across teams and files and comes in various formats: Excel files, CSVs,
 JSON files...
 
-You'll work with the following data in the `datasets` folder:
+the following is format of data in the `datasets` folder:
 
 -   **Office addresses**
     -   Saved in `office_addresses.csv`.
@@ -153,38 +128,8 @@ employees_final.set_index("employee_id", inplace=True)
 
 </div>
 
-<div class="output stream stderr">
 
-    C:\Users\CSStaff-MS02\AppData\Local\Temp\ipykernel_15564\395789626.py:30: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'Remote' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
-      employees_final[employees_final["office"].isnull() == True] = "Remote"
-    C:\Users\CSStaff-MS02\AppData\Local\Temp\ipykernel_15564\395789626.py:30: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'Remote' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
-      employees_final[employees_final["office"].isnull() == True] = "Remote"
 
-</div>
 
-</div>
 
-<div class="cell code" execution_count="6">
 
-``` python
-nbconvert --to markdown notebook.ipynb
-```
-
-<div class="output error" ename="SyntaxError"
-evalue="invalid syntax (479693054.py, line 1)">
-
-      Cell In[6], line 1
-        nbconvert --to html notebook.ipynb
-                       ^
-    SyntaxError: invalid syntax
-
-</div>
-
-</div>
-
-<div class="cell code">
-
-``` python
-```
-
-</div>
