@@ -35,11 +35,12 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 ```
 ### **Store the initialised model in a dictionary**
+```{python}
 models = { "LogisticRegression" : LogisticRegression(),
           "KNeighborsClassifier" : KNeighborsClassifier(),
           "DecisionTreeClassifier" : DecisionTreeClassifier()
 }
-
+```
 ### **Store model parameters in a dictionary**
 ```{python}
 param_grid = {
